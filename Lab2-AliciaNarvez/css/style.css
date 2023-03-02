@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container{
+display: flex;
+  }
+  .hotels-header h2 {
+    padding: 20px;
+    text-align: center;
+}
+.hotels-body {
+  margin: auto;
+  max-width: 90%;
+}
+
+.hotels-container, .hotel-puntuacion{
+  width: 50%;
+}
+.hotel-item {
+  padding: 16px;
+  border-radius: 2px;
+  border: 1px solid #9c9c9c;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hotel-puntuacion {
+  padding: 16px;
+  border-radius: 2px;
+  border: 1px solid #9c9c9c;
+}
+
+/*.hotel-name-container {
+  max-width: 300px;
+}*/
+
+.hotel-img-container{
+  text-align: right;
+}
+
+.hotel-img{
+  width:50%;
+}
+
+.hotel-stars{
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.stars {
+  max-width: 100px;
+}
